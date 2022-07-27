@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Inmuebles</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta
+        content="Publica tu inmueble en arriendo o venta"
+        name="keywords">
+    <meta
+        content="Venta y Arriendo de Inmuebles, Casas, Apartamentos, Oficinas, Locales Comerciales, Bodegas en Sincelejo, Monteria"
+        name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-1">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Cargando...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-1"></nav>
+                <a href="index.html" class="navbar-brand d-flex align-items-end text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style=" 50px; height: 50px;">
+                    </div>
+                    <h6 class="m-0 text-primary">Sincelejo</h6>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Casas</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="casaventa.html" class="dropdown-item">Casas en Venta</a>
+                                <a href="casaarriendo.html" class="dropdown-item">Casas en Arriendo</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Apartamentos</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="aptoventa.html" class="dropdown-item">Apartamentos en Venta</a>
+                                <a href="aptoarriendo.html" class="dropdown-item">Apartamentos en Arriendo</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Locales</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="localventa.html" class="dropdown-item">Locales en Venta</a>
+                                <a href="localarriendo.html" class="dropdown-item">Locales en Arriendo</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Bodegas</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="Bodegaventa.html" class="dropdown-item">Bodegas en Venta</a>
+                                <a href="Bodegaarriendo.html" class="dropdown-item">Bodegas en Arriendo</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lotes</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="lotesventa.html" class="dropdown-item">Lotes en Venta</a>
+                                <a href="lotesarriendo.html" class="dropdown-item">Lotes en Arriendo</a>
+                            </div>
+                        </div>
+                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Terminos Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h2 class="mb-3">TÉRMINOS Y CONDICIONES GENERALES</h2>
+                <h6 class="mb-3">Versión 25 de julio de 2022</h6>
+                <div align="justify">1. ASPECTOS PRELIMINARES: Los presentes términos y condiciones generales (los
+                    “Términos y Condiciones Generales”), constituyen, para todos los efectos legales, un contrato que
+                    regula el uso de los servicios ofrecidos por la empresa HBO Consulting S.A.S propietaria del
+                    establecimiento de comercio, Inmubeles.com)en adelante, "HBO Consulting S.A.S - Inmubeles.com"
+                    a través del sitio web www.inmuebles.com, sus subdominios, la aplicación móvil Inmuebles para
+                    Android y IOS, y todas aquellas páginas webs existentes o que se creen en el futuro cuyo titular sea
+                    "HBO Consulting S.A.S - Inmubeles.com" o cualquiera de sus filiales o subsidiarias (conjuntamente la
+                    “Plataforma”). Cualquier persona natural o jurídica que desee acceder a la Plataforma o a los
+                    Servicios (término definido más adelante) tendrá la condición de usuario (en adelante, el
+                    “Usuario”). Para todos los efectos legales, se entiende que el Usuario ha leído y acepta, sin
+                    limitación ni condición alguna, los presentes Términos y Condiciones Generales al acceder, navegar y
+                    utilizar cualquier componente de la Plataforma, utilizar sus herramientas, funciones o servicios,
+                    registrarse como miembro, o consultar cualquier texto, gráfico o video mediante cualquier equipo
+                    tecnológico, sea de cómputo, teléfono móvil, tableta o cualquier otro similar o afín. Si el Usuario
+                    no está de acuerdo con estos Términos y Condiciones Generales y, por ende, no desea obligarse por
+                    los mismos, debe abstenerse de acceder a la Plataforma y utilizar cualesquiera de los Servicios
+                    (término definido más adelante). Lo anterior en el entendido de que el abandono de la Plataforma por
+                    parte del Usuario no implicará la liberación respecto de las obligaciones previamente adquiridas de
+                    conformidad con lo dispuesto en los presentes Términos y Condiciones Generales.
+                    Los presentes Términos y Condiciones Generales estarán siempre a disposición del Usuario en la
+                    Plataforma para que pueda consultarlos, archivarlos o imprimirlos en cualquier momento. "HBO
+                    Consulting S.A.S - Inmubeles.com" se reserva el derecho de modificar o sustituir los presentes
+                    Términos y Condiciones Generales, así como de incorporar términos y condiciones adicionales, en
+                    cualquier momento y sin previo aviso, mediante la publicación de los términos y condiciones
+                    modificados, sustituidos o adicionados en la Plataforma. El uso y/o acceso por parte del Usuario a
+                    la Plataforma por cualquier medio, herramienta o Servicio con posterioridad a la publicación de las
+                    modificaciones y actualizaciones realizadas, será interpretado como la aceptación expresa del
+                    Usuario a obligarse por lo dispuesto en la versión más actualizada de los Términos y Condiciones
+                    Generales. </div>
+                <div align="justify">2. DESTINO DE LA PLATAFORMA: "HBO Consulting S.A.S - Inmubeles.com" es una compañía
+                    que tiene por finalidad diseñar, desarrollar, programar, operar y/o comercializar toda clase de
+                    programas informáticos, aplicaciones digitales y electrónicas que le permite actuar como
+                    intermediario inmobiliario para la venta, adquisición o arriendo de inmuebles a través de medios
+                    tecnológicos. Estos servicios y los demás análogos para el pleno ejercicio del objeto de la compañía
+                    se realizan a través de la Plataforma, la cual se encuentra alojada en una nube pública en la
+                    modalidad de Pagina Web y Software as a Service (SaaS) (en adelante, los "Servicios"). Cada uno de
+                    los Servicios ofrecidos por "HBO Consulting S.A.S - Inmubeles.com" podrán estar sujetos
+                    a condiciones particulares complementarias a las establecidas en los presentes Términos y
+                    Condiciones Generales, las cuales deberán ser aceptadas por el Usuario previo a su uso. Las
+                    condiciones particulares prevalecerán sobre los presentes Términos y Condiciones Generales en caso
+                    de conflicto. </div>
+                <div align="justify">3. CONDICIONES DE USO DE LA PLATAFORMA: El Usuario se compromete a usar la
+                    Plataforma conforme a los presentes Términos y Condiciones Generales, la buena fe y la legislación
+                    vigente.
+                    Al acceder a la Plataforma el Usuario declara que es mayor de edad y que dispone de la capacidad
+                    legal necesaria para contratar los Servicios ofrecidos a través de la misma. No podrán utilizar los
+                    Servicios las personas que no tengan esa capacidad y los menores de edad. Los actos que éstos
+                    realicen en la Plataforma serán responsabilidad de sus padres, tutores, encargados o curadores, y
+                    por tanto se considerarán realizados por éstos en ejercicio de la representación legal con la que
+                    cuentan. A este respecto, "HBO Consulting S.A.S - Inmubeles.com" se reserva la facultad de comprobar
+                    la veracidad de los datos
+                    facilitados por los Usuarios, en especial su edad y no asumirá ninguna responsabilidad sobre
+                    personas que incumplan los presentes Términos y Condiciones Generales.
+                    Asimismo, queda expresamente prohibido cualquier uso fraudulento, abusivo o contrario a la buena fe
+                    por parte del Usuario de la Plataforma, así como de cualquiera de las funcionalidades que se
+                    ofrecen. El Usuario es el único responsable del conocimiento y cumplimiento de todas las leyes y
+                    reglamentos relativos al acceso y uso de los Servicios.
+                    Sin limitar lo anterior, el Usuario reconoce que son usos prohibidos de la Plataforma, y por ende
+                    acepta abstenerse en cualquier momento de realizar cualquiera de las conductas a continuación
+                    enlistadas:
+                    Utilizar la Plataforma para cometer un delito o fomentar una conducta que pueda constituir un delito
+                    o dar lugar a una responsabilidad civil o violar cualquier ley local, nacional o internacional,
+                    regulación o reglamento.
+                    Cargar, publicar, enviar por correo electrónico, o transmitir por cualquier medio conocido o por
+                    conocerse, material ilegal, amenazante, difamatorio, acosador, vulgar, obsceno, pornográfico,
+                    xenófobo y en general, cualquier contenido que atente contra los derechos humanos o la dignidad de
+                    las personas.
+                    Cargar, publicar, enviar por correo electrónico, o transmitir por cualquier medio conocido o por
+                    conocerse, cualquier tipo de contenido cuando el Usuario no tenga autorización para transmitirlo.
+                    Cargar, publicar, enviar por correo electrónico, o transmitir por cualquier medio conocido o por
+                    conocerse, cualquier tipo de contenido que infrinja cualquier patente, marca comercial, secreto
+                    comercial, derechos de autor u otros derechos de propiedad de un tercero.
+                    Modificar, destruir o eliminar cualquier contenido o comunicación que no sea propio.
+                    Obstaculizar de cualquier modo la capacidad de otros para acceder o utilizar la Plataforma.
+                    Interrumpir el flujo normal de comunicación o de cualquier otra forma actuar de manera que afecte
+                    negativamente la habilidad de otro Usuario para vincularse en intercambio de información en tiempo
+                    real.
+                    Hacerse pasar por, o pretender la existencia de una relación con o para representar a un tercero,
+                    sea este, empresa, asociación, institución u otro tipo de organización con la cual el Usuario no
+                    tenga dicha relación o no tenga autorización para ello.
+                    Cargar, publicar, enviar por correo electrónico, o transmitir por cualquier medio conocido o por
+                    conocerse, publicidad no solicitada, materiales promocionales, u otras formas de comunicación a
+                    cualquier Usuario, incluyendo, sin limitarse a “correo basura”, “spam”, “cartas en cadena”, o
+                    “estructuras piramidales”, entre otras.
+                    Recoger o almacenar información personal u otros datos sobre cualquier Usuario sin su debida
+                    autorización de acuerdo con la normativa vigente.
+                    Reproducir, duplicar, copiar, usar, distribuir, vender, revender o explotar con cualquier propósito
+                    comercial la Plataforma y los Servicios que ofrece "HBO Consulting S.A.S - Inmubeles.com".
+                    Intentar descifrar, compilar, descompilar o desensamblar cualquier software comprendido en la
+                    Plataforma o que de cualquier manera haga parte del mismo.
+                    En general, incluir o colocar en la Plataforma información falsa, inexacta, incompleta o engañosa.
+                    Revelar o compartir la contraseña, que le permite el acceso a un área no pública de la Plataforma o
+                    a productos o servicios ofrecidos por "HBO Consulting S.A.S - Inmubeles.com", con terceras personas,
+                    o usar su contraseña para
+                    propósitos no autorizados.
+                    Violar o intentar violar la seguridad de "HBO Consulting S.A.S - Inmubeles.com".
+                    Acceder a información que no esté dirigida o autorizada directamente al Usuario o acceder a
+                    servidores o cuentas a los cuales el Usuario no está autorizado a acceder.
+                    Intentar probar la vulnerabilidad de un sistema o red o violar las medidas de seguridad o
+                    autenticación de la Plataforma.
+                    Intentar interferir con los servicios prestados a un Usuario, servidor o red, incluyendo, pero sin
+                    limitarse al envío de virus a través de la Plataforma.
+                    Cargar archivos que contengan virus, sean denominados “corruptos” o contengan cualquier tipo de
+                    programas o código que puedan dañar las operaciones de los computadores o dispositivos electrónicos
+                    de terceros.
+                    Anunciar u ofrecer la venta de bienes y/o servicios, realizar encuestas, concursos o similares.
+                    La violación de cualquiera de las prohibiciones descritas anteriormente puede resultar en
+                    responsabilidades civiles y penales. "HBO Consulting S.A.S - Inmubeles.com" investigará la
+                    ocurrencia de hechos que puedan
+                    constituir violaciones a lo anterior y cooperará con cualquier autoridad competente en la
+                    persecución de cualquier Usuario que esté relacionado con tales conductas. </div>
+                <div align="justify">4. REGISTRO Y DATOS DE CONTACTO: Para efectos de acceder a algunos de los Servicios
+                    de la Plataforma, se requiere que el Usuario se registre previamente como tal mediante el
+                    diligenciamiento del formulario de registro (en adelante, el “Formulario de Registro”). El
+                    diligenciamiento del Formulario de Registro se someterá a las siguientes reglas:
+                    El Usuario se obliga a proporcionar a "HBO Consulting S.A.S - Inmubeles.com", únicamente información
+                    auténtica, actualizada,
+                    completa y precisa. El Usuario garantiza y responde, en cualquier caso, por la veracidad, exactitud,
+                    vigencia y autenticidad de la información suministrada.
+                    La información suministrada por el Usuario se regirá por lo establecido en la Política de
+                    Tratamiento de Datos Personales.
+                    La información que se proporcione a "HBO Consulting S.A.S - Inmubeles.com" será utilizada en general
+                    para las siguientes
+                    finalidades: (i) establecimiento de canales de comunicación con los titulares de los datos
+                    personales, relacionados con las actividades relacionadas en los párrafos anteriores, (ii) atención
+                    y respuesta de consultas y mensajes de datos enviados por los Usuarios, (iii) ofrecimiento de
+                    propiedades y envío de contenidos, comunicaciones e información que "HBO Consulting S.A.S -
+                    Inmubeles.com" considera de interés del
+                    Usuario, (iv) evaluación de la calidad de los Servicios y productos, (v) asesoría personalizada a
+                    los Usuarios para la búsqueda y adquisición de inmuebles, (vi) acompañamiento personalizado en la
+                    búsqueda de un inmueble acorde a las especificaciones, necesidades e intereses de los Usuarios,
+                    (vii) ejecución de actividades de mercadeo y publicidad relacionadas con el objeto social de "HBO
+                    Consulting S.A.S - Inmubeles.com".
+                    El Usuario se obliga a actualizar su información, de manera inmediata, ante la ocurrencia de algún
+                    cambio en la misma o ante el advertimiento de algún error al momento del registro, para efectos que
+                    dicha información permanezca actualizada, auténtica, precisa, y completa.
+                    "HBO Consulting S.A.S - Inmubeles.com" se reserva el derecho de suspender, cancelar y/o impedir el
+                    uso presente o futuro de los
+                    Servicios o cualquier parte de los mismos, cuando se verifique que la información suministrada por
+                    el Usuario es falsa, inexacta, desactualizada o incompleta, o cuando "HBO Consulting S.A.S -
+                    Inmubeles.com" tenga motivos
+                    suficientes y razonables para sospechar que dicha información es falsa, inexacta, desactualizada o
+                    incompleta. </div>
+                <div align="justify">5. BONOS O DESCUENTOS: "HBO Consulting S.A.S - Inmubeles.com" podrá ofrecer a los
+                    Usuarios cupones o bonos de
+                    descuento (los “Bonos”) que serán aplicables como descuento respecto del valor del inmueble que el
+                    Usuario adquiera a través de la Plataforma. En ningún caso se entenderá que los Bonos se entregan en
+                    dinero en efectivo o se compensan con otros servicios o beneficios ofrecidos por "HBO Consulting
+                    S.A.S - Inmubeles.com" salvo se
+                    establezca específicamente lo contrario.
+                    Adicionalmente, los Bonos estarán sujetos a las siguientes condiciones generales:
+                    Los Bonos, su correcto uso y cuidado son responsabilidad del Usuario.
+                    Los Bonos son personales e intransferibles.
+                    Cuando "HBO Consulting S.A.S - Inmubeles.com" ofrezca Bonos señalará en la publicidad el valor del
+                    mismo, las condiciones
+                    específicas para su aplicación y la vigencia.
+                    "HBO Consulting S.A.S - Inmubeles.com" podrá ofrecer Bonos a través de sus empleados (agentes
+                    comerciales) los cuales serán
+                    enviados al Usuario por correo electrónico o cualquier medio que "HBO Consulting S.A.S -
+                    Inmubeles.com" estime conveniente. No
+                    tendrá validez ningún Bono que no se encuentre documentado. "HBO Consulting S.A.S - Inmubeles.com"
+                    no responderá ante los Usuarios
+                    por Bonos o descuentos ofrecidos que no tengan soporte documental. - "HBO Consulting S.A.S -
+                    Inmubeles.com" generará un reporte de
+                    medios magnéticos por los importes pagados por los Bonos, ante la autoridad competente (DIAN).
+                    Los Bonos no son acumulables con otras promociones, bonos o beneficios ofrecidos por - "HBO
+                    Consulting S.A.S - Inmubeles.com" o
+                    cualquiera de sus aliados.
+                    Los Bonos no son constitutivos de salario.
+                    "HBO Consulting S.A.S - Inmubeles.com" se reserva el derecho de establecer términos y condiciones
+                    adicionales a la aplicación de
+                    los Bonos, los cuales serán comunicados a los Usuarios. </div>
+                <div align="justify">6. PROTECCIÓN DE DATOS Y COOKIES: "HBO Consulting S.A.S - Inmubeles.com" reconoce
+                    la importancia de la privacidad
+                    del Usuario y de su derecho a autodeterminarse informativamente, por lo tanto, ha diseñado una
+                    política de tratamiento de datos personales que le permita al Usuario entender los derechos que le
+                    asisten como titular de la información y el tratamiento que "HBO Consulting S.A.S - Inmubeles.com"
+                    hace de la misma. La política de
+                    protección de datos está disponible para ser consultada en cualquier momento en
+                    www.inmuebles.com/politicas-tratamiento-datos.
+                    Para conocer cualquier cuestión relativa a las cookies que "HBO Consulting S.A.S - Inmubeles.com"
+                    emplea, se puede consultar la
+                    Política de Cookies disponible en www.inmuebles.com/static/politica-cookies-co-v1. </div>
+                <div align="justify">7. PROPIEDAD INTELECTUAL E INDUSTRIAL: El Usuario reconoce que la Plataforma, sus
+                    canales, Servicios, toda la tecnología subyacente que se utiliza en relación con la Plataforma y los
+                    Servicios de Computación en la Nube, y todo el software, bases de datos, códigos, desarrollo,
+                    hardware, materiales, información, comunicación, textos, gráficos, enlaces, funcionalidades,
+                    dominios, arte electrónico, animaciones, audio, video, fotos, marcas, patentes, logos, nombres
+                    comerciales , entre otros (el “Contenido”) disponibles en la Plataforma, son de titularidad de "HBO
+                    Consulting S.A.S - Inmubeles.com" o de terceros que han licenciado sus derechos o autorizado el uso
+                    de los mismos a "HBO
+                    Consulting S.A.S - Inmubeles.com". Es
+                    por ello, que tanto la Plataforma como el Contenido están protegidos por derechos de propiedad
+                    intelectual e industrial.
+                    Mediante el Uso de la Plataforma y la aceptación de los presentes Términos y Condiciones Generales,
+                    "HBO Consulting S.A.S - Inmubeles.com" otorga al Usuario una licencia no exclusiva, limitada,
+                    temporal e intransferible que le
+                    autoriza a acceder a los Servicios de Computación en la Nube y utilizar la Plataforma.
+                    Queda prohibida cualquier forma reproducción, distribución, modificación comunicación pública,
+                    transformación, y en general, cualquier acto de explotación, tenga o no fines comerciales, de la
+                    Plataforma y el Contenido, sin el consentimiento previo y expreso de "HBO Consulting S.A.S -
+                    Inmubeles.com". "HBO Consulting S.A.S - Inmubeles.com" se reserva
+                    todos los derechos de propiedad intelectual e industrial sobre la Plataforma y el Contenido. En
+                    ningún caso y bajo ningún concepto el acceso al Sitio, la descarga de la aplicación móvil, o la
+                    navegación o uso de la Plataforma constituyen o suponen una cesión de ningún tipo por parte de "HBO
+                    Consulting S.A.S - Inmubeles.com" de los derechos de propiedad intelectual o industrial.
+                    Cuando un Usuario o un tercero consideren que cualquier del Contenido de la Plataforma viola sus
+                    derechos de propiedad intelectual deberá comunicarlo de inmediato a "HBO Consulting S.A.S -
+                    Inmubeles.com", al correo electrónico
+                    hbo.consultin@gmail.com especificando la siguiente información:
+                    Datos personales y de contacto del reclamante Datos personales y de contacto del titular del derecho
+                    de Propiedad Intelectual considerado infringido
+                    Indicación detallada del contenido protegido y considerado infringido Enlace o link de localización
+                    en la Plataforma
+                    Declaración expresa de titularidad del contenido considerado infringido Declaración de ausencia de
+                    consentimiento para el uso de tal contenido
+                    Declaración expresa y responsable que la información proporcionada es exacta y que la utilización de
+                    los contenidos constituye una violación de sus derechos de propiedad intelectual.
+                    Documentos que soporten su reclamación </div>
+                <div align="justify">8. VÍNCULOS O ENLACES EN LA PLATAFORMA: La Plataforma puede contener vínculos o
+                    enlaces que direccionan a sitios web independientes o de
+                    propiedad de terceros. Debido a que "HBO Consulting S.A.S - Inmubeles.com" no tiene control sobre
+                    estos sitios, no es responsable
+                    del contenido o los servicios prestados a través de los mismos. Adicionalmente, no será responsable
+                    por ningún daño o pérdida causada o supuestamente causada por o en conexión con el uso de los
+                    vínculos o enlaces de los terceros.
+                    Ningún Usuario podrá crear vínculos al Sitio desde otros sitios, salvo que medie autorización previa
+                    y expresa de "HBO Consulting S.A.S - Inmubeles.com" y que además, la Plataforma web:
+                    No cree un entorno de explorador o con bordes alrededor del contenido de "HBO Consulting S.A.S -
+                    Inmubeles.com" “framing”
+                    No cree ningún tipo de relación no autorizada con "HBO Consulting S.A.S - Inmubeles.com"
+                    No presente información falsa acerca de los productos o los Servicios de "HBO Consulting S.A.S -
+                    Inmubeles.com"
+                    No utilice el logotipo o ningún otro signo distintivo de "HBO Consulting S.A.S - Inmubeles.com" sin
+                    autorización previa y expresa
+                    No incluya contenido considerado desagradable, ofensivo o controvertido y contenga exclusivamente
+                    contenido adecuado para grupos de todas las edades. "HBO Consulting S.A.S - Inmubeles.com" en ningún
+                    caso responsabilizará de los
+                    productos, servicios o el contenido de los sitios. </div>
+                <div align="justify">10. INFORMACIÓN DE PRECIOS: "HBO Consulting S.A.S - Inmubeles.com" no es
+                    propietaria, desarrolladora y
+                    comercializadora de los inmuebles que se ofrecen en la Plataforma y, en consecuencia, los precios
+                    descritos de los inmuebles son los estipulados por la constructora desarrolladora del proyecto,
+                    comercializadores o por el propietario del inmueble.
+                    Mediante el uso de la Plataforma, el Usuario entiende y acepta que los precios son meramente
+                    indicativos y por tanto no constituyen una oferta comercial al público. "HBO Consulting S.A.S -
+                    Inmubeles.com" se obliga a
+                    actualizar tales precios confirme a la información que, de tiempo en tiempo, le proporcionen los
+                    desarrolladores, propietarios o comercializadores a efecto de mantenerla lo más actualizada posible.
+                </div>
+                <div align="justify">11. INDEMNIDAD: El Usuario se obliga con "HBO Consulting S.A.S - Inmubeles.com",
+                    sus filiales, afiliados,
+                    accionistas, funcionarios y empleados, a indemnizarlos y a mantenerlos en paz y salvo contra todo
+                    reclamo, demanda, acción legal, gasto, honorarios de expertos, incluyendo asesores legales y
+                    financieros y costo que se cause o surja como consecuencia de la violación o desconocimiento de los
+                    Términos y Condiciones Generales por parte del Usuario. En caso de que "HBO Consulting S.A.S -
+                    Inmubeles.com", sus afiliados,
+                    funcionarios, accionistas y/o empleados resulten condenados como consecuencia de las conductas
+                    violatorias de estos Términos y Condiciones Generales por parte del Usuario, este último estará
+                    obligado a pagar a "HBO Consulting S.A.S - Inmubeles.com", de forma inmediata a que "HBO Consulting
+                    S.A.S - Inmubeles.com" lo
+                    requiera las sumas que la parte
+                    afectada deba pagar en virtud de la sentencia, resolución o acuerdo y continuará facultado a recibir
+                    el pago de cualquier daño o perjuicio que, de tiempo en tiempo, pueda ser causado.
+                </div>
+                <div align="justify">12. LEYES Y JURISDICCIÓN APLICABLES: "HBO Consulting S.A.S - Inmubeles.com"
+                    controla y opera la Plataforma y todas
+                    sus actividades desde Colombia y no garantiza que el contenido es apropiado o disponible para su uso
+                    en otros lugares. Si usted tiene acceso a la Plataforma desde un lugar ubicado fuera del territorio
+                    de Colombia, lo hace bajo su propio riesgo y es responsable del cumplimiento de las leyes aplicables
+                    en su jurisdicción. Absténgase de utilizar la Plataforma, si tal conducta infringe el ordenamiento
+                    jurídico del país donde usted reside. Estos Términos y Condiciones Generales, el acceso y uso de la
+                    Plataforma, están regidos por las leyes de Colombia, sin dar aplicación a las normas o principios
+                    sobre conflicto de leyes. La jurisdicción para cualquier reclamación que surja de estos Términos y
+                    Condiciones Generales o del uso y/o acceso al Sitio, será exclusivamente la de los tribunales y
+                    jueces de la República de Colombia. Si alguna previsión de estos Términos y Condiciones Generales es
+                    declarada nula, inválida o ineficaz, ello no afectará la validez de las previsiones restantes.
+                </div>
+                <div align="justify">13. MODIFICACIONES A LA PLATAFORMA: "HBO Consulting S.A.S - Inmubeles.com" se
+                    reserva el derecho a modificar o
+                    interrumpir, en cualquier momento, de manera temporal o permanentemente, la Plataforma, los
+                    Servicios o cualquier parte de los mismos, con o sin previo aviso. El Usuario acepta que el "HBO
+                    Consulting S.A.S - Inmubeles.com"
+                    no será responsable ante el Usuario ni ante ningún tercero por ninguna modificación, suspensión o
+                    interrupción de las actividades de la Plataforma.
+                </div>
+                <div align="justify">14. SOLUCIÓN DE CONTROVERSIAS: Cualquier controversia o reclamo que surja entre el
+                    "HBO Consulting S.A.S - Inmubeles.com" y el Usuario, con relación al cumplimiento de estos Términos
+                    y Condiciones Generales, su
+                    ejecución, interpretación y la prestación de sus Servicios se intentará solucionar en forma directa,
+                    rápida y amigablemente. De no lograrse un acuerdo dentro de los diez (10) días hábiles siguientes a
+                    la fecha de la primera comunicación escrita que una parte haya remitido a la otra sobre la
+                    diferencia, discrepancia o conflicto, cualquiera de las partes podrá solicitar que las diferencias
+                    sean sometidas a la decisión de un Tribunal de Arbitramento integrado por el número de árbitros que
+                    corresponda según la cuantía, de conformidad con lo establecido en la ley.
+                    Los miembros del Tribunal serán escogidos de común acuerdo entre las partes, a falta de acuerdo, el
+                    Tribunal será designado por la sala de conciliación y arbitraje de la Cámara de Comercio de
+                    Medellín, a solicitud de una cualquiera de las partes. En todo caso, el Tribunal deberá constituirse
+                    dentro de los diez (10) días hábiles siguientes al vencimiento del plazo de diez (10) días hábiles
+                    fijado en el inciso primero de esta sección para el arreglo directo. El Tribunal de Arbitramento se
+                    sujetará a la legislación Colombiana, funcionará en la ciudad de Sincelejo, Sucre y decidirá en
+                    derecho
+                    dentro de un plazo máximo de seis (6) meses contados a partir de la fecha de su instalación.
+                    Los costos de funcionamiento del Tribunal de Arbitramento, o los costos derivados de los honorarios
+                    y demás actividades que desarrolle lo asumirán las partes por mitades. La parte cuyas pretensiones
+                    hubiesen sido desestimadas por el Tribunal de Arbitramento, devolverá a la otra parte lo aportado
+                    para el funcionamiento del Tribunal o para cubrir los honorarios y la actividad desarrollada por el
+                    Comité.
+                </div>
+                <div align="justify">15. TERMINACIÓN: EL Usuario puede suspender su participación y el acceso al Sitio
+                    en cualquier momento. Los Términos y Condiciones Generales seguirán aplicándose a todos los usos
+                    realizados en el pasado de los Servicios y de la Plataforma por parte del Usuario, incluso si el
+                    Usuario no lo está usando. El Usuario reconoce y acepta que "HBO Consulting S.A.S - Inmubeles.com" y
+                    sus afiliados pueden cancelar
+                    o bloquear el uso de la totalidad o parte de la Plataforma, sin previo aviso y por cualquier razón.
+                    El Usuario acepta que, al cese o interrupción por cualquier razón, "HBO Consulting S.A.S -
+                    Inmubeles.com" puede eliminar toda la
+                    información relacionada con el Usuario y puede impedir el acceso al Sitio y la utilización de sus
+                    Servicios en la Nube.
+                </div>
+                <div align="justify">16. CONTROL DE LAVADO DE ACTIVOS Y FINANCIACIÓN DEL TERRORISMO: El Usuario
+                    reconoce, acepta y garantiza, que ni él ni sus accionistas, socios y/o representantes:
+                    Se encuentran vinculados, nacional o internacionalmente, a ningún tipo de investigaciones por
+                    conductas relacionadas con narcotráfico, terrorismo, financiación del terrorismo, secuestro, lavado
+                    de activos y/o cualquier otra actividad vinculada a la administración de recursos relacionados con
+                    las conductas descritas.
+                    Han sido condenados por parte de las autoridades jurisdiccionales y/o administrativas, nacional o
+                    internacionalmente, en cualquier tipo de proceso relacionado con la ejecución de las anteriores
+                    conductas o de actividades conexas a tales conductas.
+                    Están o han estado incluidos en listas o bases de datos para el control de lavado de activos y
+                    financiación del terrorismo administradas por cualquier autoridad nacional o extranjera.
+                    La ocurrencia de cualquiera de las situaciones descritas anteriormente, obligan al Usuario a
+                    informar inmediatamente a "HBO Consulting S.A.S - Inmubeles.com" sobre tal situación y será el
+                    Usuario el único y exclusivo
+                    responsable por cualquier consecuencia jurídica derivada. Por lo tanto y para todos los efectos
+                    legales, el usuario reconoce que el "HBO Consulting S.A.S - Inmubeles.com" actúa como un tercero de
+                    buena fe.
+                    En consecuencia, "HBO Consulting S.A.S - Inmubeles.com", en su calidad de intermediario para la
+                    gestión de portafolios
+                    inmobiliarios, no se hace responsable por los aspectos relacionados con el Sistema de Administración
+                    del Riesgo de Lavado de Activos y Financiación del Terrorismo, no estando obligado practicar dichos
+                    controles al Usuario, comprador o propiedad registrada.
+                </div>
+                <div align="justify">17. DATOS DE CONTACTO: "HBO Consulting S.A.S - Inmubeles.com" es una compañía
+                    colombiana con domicilio en la
+                    ciudad de Medellín, para cualquier información, solicitud de autorización, reclamación o
+                    notificación judicial, deben utilizarse los siguientes datos de contacto:
+                    Razón social: "HBO Consulting S.A.S - Inmubeles.com" Dirección: Carrera 20 # 16b-04, Edificio Los
+                    Cristales, Sincelejo, Sucre, Colombia NIT: 901252062-6 Teléfono: 3128284509 E-mail:
+                    hboconsultin@gmail.com
+                </div>
+                <div align="justify">18. VIGENCIA Y MODIFICACIONES: El presente documento constituye la versión más
+                    actualizada de los Términos y Condiciones Generales,
+                    son obligatorios para todos los Usuarios que visiten la Plataforma y/o usen cualquiera de los
+                    Servicios. El Usuario, de forma expresa e inequívoca declara que ha leído, que entiende y que acepta
+                    la totalidad de los supuestos previstos y regulados en el presente escrito de Términos y Condiciones
+                    Generales de uso de la Plataforma, por lo que se obliga conforme a los mismos.
+                    "HBO Consulting S.A.S - Inmubeles.com" puede modificar estos Términos y Condiciones Generales, o
+                    cualquier término adicional que se
+                    aplique a algún Servicio específico. "HBO Consulting S.A.S - Inmubeles.com" pondrá a disposición,
+                    cuando ello fuere posible, un
+                    aviso de las modificaciones de los términos en esta página web. Los cambios a los Términos y
+                    Condiciones Generales no se aplicarán retroactivamente, y entrarán en vigor una vez publicados.
+                </div>
+                <div align="justify">19. CONDICIONES ADICIONALES - ACUERDO DE NIVEL DE SERVICIO: Los Acuerdos de Nivel
+                    de Servicio serán los especificados a lo largo de los presentes Términos y Condiciones Generales,
+                    así como en aquellos términos y condiciones o contratos adicionales que "HBO Consulting S.A.S -
+                    Inmubeles.com" firme con el Usuario
+                    para la prestación de los Servicios de Computación en la Nube.
+                    "HBO Consulting S.A.S - Inmubeles.com" realizará los esfuerzos comercialmente razonables para que la
+                    Plataforma y los componentes
+                    de la misma estén disponible al Usuario en todo momento, sin embargo, no puede garantizar que la
+                    Plataforma esté libre de interrupciones o errores.
+                    En esta medida, "HBO Consulting S.A.S - Inmubeles.com" se compromete a dar respuesta ante la
+                    materialización de un incidente de
+                    error en la Plataforma en un plazo no superior a 1 día hábil desde el momento de la ocurrencia del
+                    mismo. Adicionalmente, se informa a los Usuarios que el tiempo de respuesta en caso de solicitar
+                    soporte será de 1 día hábil, y para las solicitudes de mejora, 2 días hábiles.
+                    El Usuario podrá realizar las mencionadas notificaciones al correo hboconsultin@gmail.com o a través
+                    de
+                    los canales de soporte al Usuario dispuestos en la Plataforma.
+                </div>
+
+                <!-- Terminos End -->
+
+
+                <!-- Footer Start -->
+                <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="container py-1">
+                        <div class="row g-5">
+                            <div class="col-lg-3 col-md-6">
+                                <h5 class="text-white mb-4">Contactenos</h5>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sincelejo, Sucre, CO</p>
+                                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+573016744520</p>
+                                <p class="mb-2"><i class="fa fa-envelope me-3"></i>inmuebles.ger@gmail.com</p>
+                                <div class="d-flex pt-2">
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h5 class="text-white mb-4">Enlaces Rapidos</h5>
+                                <a class="btn btn-link text-white-50" href="">Sobre Nosotros</a>
+                                <a class="btn btn-link text-white-50" href="">Contactenos</a>
+                                <a class="btn btn-link text-white-50" href="2Politicadatospersonales.html">Política
+                                    de
+                                    privacidad</a>
+                                <a class="btn btn-link text-white-50" href="1Terminos.html">Terminos &
+                                    Condiciones</a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="row g-2 pt-2">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h5 class="text-white mb-4">Boletin Informativo</h5>
+                                <p>Suscribase a Nuestro Boletion informativo</p>
+                                <div class="position-relative mx-auto" style="max-width: 400px;">
+                                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                                        placeholder="Su Email">
+                                    <button type="button"
+                                        class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="copyright">
+                            <div class="row">
+                                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                    &copy; <a class="border-bottom" href="#">HBO Consulting </a>, Todoos Los
+                                    Derechos Reservados.
+
+                                    <!--/*** creditos ***/-->
+                                    Designed By <a class="border-bottom" href="">HBO Consulting</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End -->
+
+
+                <!-- Back to Top -->
+                <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+            </div>
+
+            <!-- JavaScript Libraries -->
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+            <!-- Template Javascript -->
+            <script src="js/main.js"></script>
+</body>
+
+</html>
